@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('./main.css');
+@import url("./texto.css");
+@import url('./conteudo.css');
+@import url('./mobile.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --gray500: hsl(0, 0%, 42%);
+    --gray950: hsl(0, 0%, 7%);
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url(../fonts/static/Figtree-ExtraBold.ttf) format("truetype");
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: 'Figtree';
+    src: url(../fonts/static/Figtree-Medium.ttf);
+    font-weight: 500;
+}

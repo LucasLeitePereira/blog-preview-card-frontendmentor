@@ -1,0 +1,66 @@
+.caixa-texto {
+    background: var(--yellow);
+    padding: 4px 12px;
+    border-radius: 4px;
+    text-align: center;
+
+    width: 58px;
+    height: 21px;
+}
+
+.text-present-1 {
+    font-family: 'Figtree';
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 150%;
+    color: var(--gray950);
+}
+
+.text-present-2 {
+    font-family: 'Figtree';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: var(--gray500);
+}
+
+.text-present-3 {
+    font-family: 'Figtree';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray950);
+}
+
+.text-present-3-bold {
+    font-family: 'Figtree';
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 150%;
+    color: var(--gray950);
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 336px;
+    height: 194px;
+}
+
+h1:hover {
+    color: var(--yellow);
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+@media only screen and (max-width: 430px) {
+    .texto {
+        width: 100%;
+        height: fit-content;
+        gap: 12px;
+    }
+
+    
+}
